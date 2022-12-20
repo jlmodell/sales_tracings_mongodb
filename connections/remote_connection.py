@@ -6,3 +6,5 @@ db = client.get_database("busserebatetraces")
 
 rebate_tracings_collection = db.get_collection("tracings")
 sales_tracings_collection = db.get_collection("sales_tracings")
+
+sched_data = db.get_collection("sched_data")
